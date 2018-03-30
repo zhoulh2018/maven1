@@ -33,7 +33,7 @@ public class UserAction extends ActionSupport implements ModelDriven<SysOrgPerso
     private static final Logger LOGGER = Logger.getLogger(UserAction.class);  
     private String id;  
     SysOrgPerson user;  
-    List<SysOrgPerson>  userList;  
+    List<SysOrgPerson> userList;  
       
     @Autowired  
     private UserService userService;  
